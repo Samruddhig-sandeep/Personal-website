@@ -1,0 +1,163 @@
+
+
+.firstsec {
+  position: relative;
+  height: 100vh; /* Full screen without scroll */
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Keeps it fullscreen without stretching */
+  z-index: -1; /* Puts it behind the text */
+}
+
+.firsttext {
+  position: relative;
+  z-index: 1;
+  color: grey;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  font-size:xx-large;
+}
+ h1{
+  font-family: cursive;
+  font-weight: 300;
+  }
+
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-top: 20px;
+  }
+
+.secondsec {
+  background-color: #729EB6;
+  display: flex;
+  align-items: center;        /* Vertically center text and image */
+  justify-content: center;    /* Horizontally center entire section */
+  padding: 40px;
+  gap: 30px;                  /* Space between image and text */
+  flex-wrap: wrap;            /* For responsiveness on smaller screens */
+}
+
+.hello {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.h2 {
+  max-width: 500px;
+  font-family: 'Dancing Script', cursive; /* or any font you want */
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+.thirdsec-wrapper {
+  background-color: #729EB6;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Title styling */
+.skill-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+/* Container for each skill pair (image + text) */
+/* One row: image + text */
+.skill-block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  margin: 30px auto;
+  max-width: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-wrap: nowrap;         /* KEEP image & text on same row */
+  text-align: left;
+}
+
+/* Image styling */
+.code {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Text styling */
+.type {
+  max-width: 600px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+.Foursec {
+  background-color: white;
+  color: #333;
+  width: 300px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  font-family: 'Dancing Script', cursive;
+}
+
+.Foursec h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.Foursec p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.Foursec button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #4C8BF5;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Foursec button:hover {
+  background-color: #376ad9;
+}
+body{
+background-color: #D8AFE1 ;
+}
+
+.footer{
+  background-color: #F9AAC0;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  text-align: center;
+  padding-top: 100px;
+  color:#AA336A;
+}
