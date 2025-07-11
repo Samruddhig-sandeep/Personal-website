@@ -161,3 +161,77 @@ background-color: #D8AFE1 ;
   padding-top: 100px;
   color:#AA336A;
 }
+
+@media (max-width: 768px) {
+
+  .firsttext {
+    padding-top: 100px;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    padding-top: 10px;
+  }
+
+  .secondsec {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hello {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .h2 {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .skill-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .code {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .type {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .Foursec {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .Foursec h1 {
+    font-size: 1.5rem;
+  }
+
+  .Foursec p {
+    font-size: 1rem;
+  }
+
+  .Foursec button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .footer {
+    padding-top: 30px;
+    height: auto;
+    font-size: 0.9rem;
+  }
+}
